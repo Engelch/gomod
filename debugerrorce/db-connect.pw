@@ -1,0 +1,37 @@
+# db cfg for testing the vcs supplier svc against a local database.
+# This is to be used for new developments before moving to shared D, Q, P environments.
+
+localadm_DB_TYPE=psql
+localadm_HOST=127.0.0.1
+localadm_PORT=5432
+localadm_USER=spostgres
+localadm_PW='demoPW837378_8372'
+localadm_DB=postgres
+
+psqlTestRO_DB_TYPE=psql
+psqlTestRO_HOST=127.0.0.1
+psqlTestRO_PORT=5432
+psqlTestRO_USER='psqltestro'
+psqlTestRO_PW='psqlTestRO_PW_8383020'
+psqlTestRO_DB='roman'
+
+psqlTestRW_DB_TYPE=psql
+psqlTestRW_HOST=127.0.0.1
+psqlTestRW_PORT=5432
+psqlTestRW_USER='psqltestrw'
+psqlTestRW_PW='psqlTestRW_PW_83830389'
+psqlTestRW_DB='roman'
+
+psqlTestRWD_DB_TYPE=psql
+psqlTestRWD_HOST=127.0.0.1
+psqlTestRWD_PORT=5432
+psqlTestRWD_USER='psqltestrwd'
+psqlTestRWD_PW='psqlTestRWD_PW_83xxa0389'
+psqlTestRWD_DB='roman'
+
+psqlTestRWDT_DB_TYPE=psql
+psqlTestRWDT_HOST=127.0.0.1
+psqlTestRWDT_PORT=5432
+psqlTestRWDT_USER='psqltestrwdt'
+psqlTestRWDT_PW='psqlTestRWDT_PW_838xs3389'
+psqlTestRWDT_DB='roman'
